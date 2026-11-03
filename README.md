@@ -17,4 +17,4 @@ To understand more about common data science libraries like scikit-learn, matplo
 
 Description:
 
-This program cleans the HousePricePredicion.xlsx file and then trains a linear regression model on it that makes predictions for the missing sales prices at the end of the dataset. Those predictions are then used to calculate mean squared error, r2 score, etc. It also allows the user to chose a few different graphs to see correlations and the accuracy of the model.
+This program cleans the HousePricePrediction.xlsx file and then trains a linear regression model on the 1,460 houses that have a sale price. 20% of those houses (292) are held back as a test set, and the model's predictions for them are compared with their real prices to calculate the error. The user can choose mean absolute error (MAE), mean absolute percentage error (MAPE), root mean squared error (RMSE), or R2 score. The 1,459 houses at the end of the dataset with no sale price aren't used, since there's no real price to check a prediction against. It also allows the user to chose a few different graphs to see correlations and the accuracy of the model.
